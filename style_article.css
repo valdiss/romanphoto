@@ -5,45 +5,82 @@ body
 
 article
 {
-    width: 100%;
+    position: relative;
     box-sizing: border-box;
+    width: 100%;
     border: 2px solid black;
+    padding-bottom: 10%;
 }
 
-article section:first-child
-{
-    margin-top: 0.5%;
-}
-
-section
+article section
 {
     display: flex;
     width: 100%;
 }
 
-section div
+article section div
 {
     box-sizing: border-box;
     position: relative;
     margin-right: 0.5%;
-    margin-bottom: 0.25%;
+    margin-top: 0.25%;
     opacity: 0.75;
 }
 
-section div:first-child
+article section div:first-child
 {
     margin-left: 0.5%;
 }
 
-section div img
+article section div img
 {
     max-width: 100%;
     max-height: 1080px;
 }
 
-section div p
+article section div p
 {
     position: absolute;
     margin: 0;
     color: white;
+}
+
+article a
+{
+    text-decoration: none;
+}
+
+article a div.button
+{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    height: 10%;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    margin: 1%;
+    padding: 0;
+    background-color: #0000FF;
+}
+
+article a div.button-left
+{
+    left: 0;
+}
+
+article a div.button-right
+{
+    right: 0;
+}
+
+article a div p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    margin: 0;
+    color: #FF0000;
 }
