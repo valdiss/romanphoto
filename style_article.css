@@ -5,11 +5,18 @@ body
 
 article
 {
+    display: none;
     position: relative;
     box-sizing: border-box;
     width: 100%;
     border: 2px solid black;
     padding-bottom: 10%;
+    background-color: #FFFFFF;
+}
+
+article:target
+{
+    display: block;
 }
 
 article section
@@ -42,7 +49,9 @@ article section div p
 {
     position: absolute;
     margin: 0;
-    color: white;
+    font-size: 200%;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 article a
@@ -62,6 +71,12 @@ article a div.button
     margin: 1%;
     padding: 0;
     background-color: #0000FF;
+    opacity: 0.25
+}
+
+article a div.button:hover
+{
+    opacity: 1;
 }
 
 article a div.button-left
