@@ -1,0 +1,17 @@
+input:focus, textarea:focus {
+  border-color: black;
+}
+input, textarea {
+  border: 1px solid #999;
+  box-sizing: border-box;
+  width: 40%;
+}
+.labContact {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.contact{
+  margin: 0 auto;
+  width: 40%;
+}
