@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+}
+
+header {
+  position:fixed;
+  width: 100%;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #B44D2A;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Alpha Sausage";
+  font-size: 6em;
+  background-image: url("cat.png");
+  margin: 0;
+  padding: 20px;
+  color: #B44D2A;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  flex: 1;
+  border: 1px solid black;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+  color: black;
+  font-family: "Kitten";
+}
+
+li:hover{
+  background-color: #F15278;
+}
+
+p.copyright {
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer{
+  background-color: pink;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+@font-face {
+  src: url("Alpha Sausage.ttf");
+  font-family: "Alpha Sausage";
+}
+
+@font-face {
+  src: url("AustieBostKittenKlub.ttf");
+  font-family: "Kitten";
+}
