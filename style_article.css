@@ -8,7 +8,6 @@ div.article-container
     display: none;
     width: 100%;
     padding-top: 20%;
-    margin-bottom: 10%;
 }
 
 div.article-container:target
@@ -41,6 +40,13 @@ div article section div
     opacity: 0.75;
 }
 
+/*
+div#A4 article section div
+{
+    opacity: 1;
+}
+*/
+
 div article section div:first-child
 {
     margin-left: 0.5%;
@@ -55,10 +61,16 @@ div article section div img
 div article section div p
 {
     position: absolute;
+    background: url("images/bulle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    max-width: 50%;
     margin: 0;
+    padding: 0 1% 2vh 1%;
+    line-height: 1;
     font-size: 200%;
-    background-color: #000000;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 div article a
