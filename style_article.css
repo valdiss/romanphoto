@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+}
+
+article
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+article section:first-child
+{
+    margin-top: 0.5%;
+}
+
+section
+{
+    display: flex;
+    width: 100%;
+}
+
+section div
+{
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 0.5%;
+    margin-bottom: 0.25%;
+    opacity: 0.75;
+}
+
+section div:first-child
+{
+    margin-left: 0.5%;
+}
+
+section div img
+{
+    max-width: 100%;
+    max-height: 1080px;
+}
+
+section div p
+{
+    position: absolute;
+    margin: 0;
+    color: white;
+}
