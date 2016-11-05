@@ -61,13 +61,12 @@ div article section div img
 div article section div p
 {
     position: absolute;
-    background: url("images/bulle.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-sizing: border-box;
     max-width: 50%;
     margin: 0;
-    padding: 0 1% 2vh 1%;
+    padding: 1% 2% 4% 2%;
     line-height: 1;
     font-size: 200%;
     color: #000000;
