@@ -20,9 +20,20 @@ div article
     position: relative;
     box-sizing: border-box;
     width: 100%;
-    border: 2px solid black;
-    padding-bottom: 10%;
+    padding-bottom: 12vw;
+    border: 3px solid #000000;
     background-color: #FFFFFF;
+}
+
+div article h2
+{
+    margin: 0.5%;
+    padding: 0;
+    padding-left: 1%;
+    font-weight: bold;
+    font-size: 300%;
+    border: 2px solid #FF0000;
+    background-color: #F0F0F0;
 }
 
 div article section
@@ -40,13 +51,6 @@ div article section div
     opacity: 0.75;
 }
 
-/*
-div#A4 article section div
-{
-    opacity: 1;
-}
-*/
-
 div article section div:first-child
 {
     margin-left: 0.5%;
@@ -56,6 +60,11 @@ div article section div img
 {
     max-width: 100%;
     max-height: 1080px;
+}
+
+div:not(#A4) article section div img
+{
+    filter: grayscale(50%);
 }
 
 div article section div p
@@ -82,11 +91,11 @@ div article a div.button
     display: inline-block;
     position: absolute;
     bottom: 0;
-    width: 10%;
-    height: 10%;
+    width: 10vw;
+    height: 10vw;
     border: 1px solid #000000;
     border-radius: 50%;
-    margin: 1%;
+    margin: 1vw;
     padding: 0;
     background-color: #0000FF;
     opacity: 0.25
