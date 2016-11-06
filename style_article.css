@@ -1,5 +1,8 @@
 body{
   margin: 0;
+  background-image: url("500-blanc-kaolin.png");
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
@@ -22,6 +25,7 @@ h1 {
   font-family: "Alpha Sausage";
   font-size: 6em;
   background-image: url("cat.png");
+  background-position: center;
   margin: 0;
   padding: 20px;
   color: #B44D2A;
@@ -36,20 +40,22 @@ ul {
 li {
   flex: 1;
   border: 1px solid black;
+  border-radius: 3%;
+  border-collapse: collapse;
   list-style: none;
   text-align: center;
   padding: 10px;
   background-color: pink;
-  color: black;
   font-family: "Kitten";
 }
 
 li:hover{
-  background-color: #F15278;
+  background-color: #99D3F7;
+  transition: 0.3s;
 }
 
 p.copyright {
-  margin-top: 100px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -68,4 +74,23 @@ footer{
 @font-face {
   src: url("AustieBostKittenKlub.ttf");
   font-family: "Kitten";
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 3em;
+
+  }
+
+  header ul{
+    display: none;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
