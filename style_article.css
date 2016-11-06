@@ -31,7 +31,7 @@ div article h2
     padding: 0;
     padding-left: 1%;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 5vw;
     border: 2px solid #FF0000;
     background-color: #F0F0F0;
 }
@@ -42,7 +42,7 @@ div article section
     width: 100%;
 }
 
-div article section div
+div article section div.image-container
 {
     box-sizing: border-box;
     position: relative;
@@ -70,14 +70,15 @@ div:not(#A4) article section div img
 div article section div p
 {
     position: absolute;
+    background-image: url(images/bulle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    box-sizing: border-box;
     max-width: 50%;
     margin: 0;
-    padding: 1% 2% 4% 2%;
+    padding: 2% 3% 2% 3%;
     line-height: 1;
-    font-size: 200%;
+    text-align: center;
+    font-size: 2vw;
     color: #000000;
 }
 
@@ -125,4 +126,17 @@ div article a div p
     font-size: 500%;
     margin: 0;
     color: #FF0000;
+}
+
+@media screen and (max-width: 500px)
+{
+    div article section
+    {
+        flex-direction: column;
+    }
+
+    div article section div p
+    {
+        font-size: 4vw;
+    }
 }
