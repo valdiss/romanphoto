@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'atami_reg';
-  src: url('../romanphoto/fonts/Atami-Regular.otf');
+  font-family: 'atami_disp';
+  src: url('../romanphoto/fonts/Atami-Display.otf');
 }
 @font-face {
   font-family: 'kano';
@@ -9,6 +9,10 @@
 body {
     font-family: kano, sans-serif;
     background-color: white;
+    margin: 0;
+    background-image: url("../romanphoto/images/500-blanc-kaolin.png");
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
     margin: 0;
 }
@@ -16,7 +20,7 @@ body {
   text-align: center;
 }
 .admin_name {
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 0;
 }
@@ -25,10 +29,11 @@ section {
 }
 h1 {
   text-align: center;
-  font-size: 2em;
-  font-weight:normal;
-  margin-bottom:50px;
-  font-family: atami_reg;
+  font-size: 2.5em;
+  font-weight: normal;
+  margin-bottom: 50px;
+  font-family: atami_disp;
+  margin-top: 50px;
 }
 
 #avatars_box {
@@ -44,14 +49,15 @@ h1 {
   position: relative;
   margin: 0 auto;
 }
- .article {
-   width:15%;
+ .admins {
+   width:20%;
    display: inline-block;
  }
 #presentation {
   margin-top: 30px;
   margin-left: 60px;
   margin-right: 60px;
+  font-size: 1.1em;
 }
 .button_block {
   display: flex;
@@ -66,7 +72,7 @@ button {
   justify-content: center;
   border-radius: 10px;
   font-size: 1.3em;
-  font-family: atami_reg;
+  font-family: atami_disp;
   background-color: #FF8353;
   border-bottom: 5px solid #BF623E;
 }
