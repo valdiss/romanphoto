@@ -1,3 +1,62 @@
+/* Bubble text ---------------------------------------------------------------- */
+#A1-S1-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A1-S1-D1-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A1-S1-D1-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A2-S1-D2-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A2-S1-D2-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A2-S1-D2-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A3-S1-D3-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A3-S1-D3-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A3-S1-D3-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Fonts ---------------------------------------------------------------------- */
 @font-face
 {
     src: url("fonts/Alpha Sausage.ttf");
@@ -10,6 +69,7 @@
     font-family: "Kitten";
 }
 
+/* CSS ------------------------------------------------------------------------ */
 body
 {
     position: relative;
@@ -19,22 +79,20 @@ body
     background-attachment: fixed;
 }
 
-header
-{
+header {
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
 }
 
-a
-{
+a {
     text-decoration: none;
     width: 100%;
     color: #B44D2A;
 }
 
-header h1 {
+h1 {
     height: 50px;
     margin: 0;
     padding: 20px 0 20px 0;
@@ -90,8 +148,7 @@ footer {
     background-color: pink;
 }
 
-footer p
-{
+footer p {
     margin-top: 10px;
     text-align: center;
 }
@@ -111,7 +168,6 @@ div.article-container:target
 
 div article
 {
-    position: relative;
     box-sizing: border-box;
     width: 100%;
     padding-bottom: 12vw;
@@ -223,6 +279,7 @@ div article a div p
     color: #FF0000;
 }
 
+/* Media queries -------------------------------------------------------------- */
 @media screen and (max-width: 800px)
 {
     header h1
