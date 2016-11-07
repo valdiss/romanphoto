@@ -19,7 +19,7 @@ a {
 h1 {
     text-align: center;
     font-family: "Alpha Sausage";
-    font-size: 6em;
+    font-size: 7vw;
     background-image: url("cat.png");
     background-position: center;
     margin: 0;
@@ -33,7 +33,7 @@ ul {
     margin: 0;
 }
 
-li {
+ul a {
     flex: 1;
     border: 1px solid grey;
     border-radius: 3px;
@@ -44,7 +44,7 @@ li {
     font-family: "Kitten";
 }
 
-li:hover {
+ul a:hover {
     background-color: #99D3F7;
     transition: 0.3s;
 }
