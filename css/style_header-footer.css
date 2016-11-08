@@ -18,7 +18,6 @@ header h1 {
     background-image: url("../images/cat.png");
     background-position: center;
     text-align: center;
-    font-family: "Alpha Sausage";
     color: #B44D2A;
 }
 
@@ -51,7 +50,6 @@ header ul li {
     text-align: center;
     padding: 10px;
     background-color: pink;
-    font-family: "Kitten";
 }
 
 header ul li:hover {
