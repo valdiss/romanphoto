@@ -14,6 +14,10 @@
   font-family: 'kano';
   src: url('../fonts/Kano.otf');
 }
+@font-face {
+  font-family: 'gosmick';
+  src: url('../fonts/GosmickSans.ttf');
+}
 body {
   font-family: roboto, sans-serif;
 }
@@ -29,4 +33,7 @@ h2 {
 /*Typo bouton démarrer page accueil*/
 .button_link {
   font-family: atami_disp;
+}
+.text_bulle {
+  font-family: gosmick;
 }
