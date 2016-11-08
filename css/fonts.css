@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'atami_disp';
+  src: url('../fonts/Atami-Display.otf');
+}
+@font-face {
+  font-family: 'atami_reg';
+  src: url('../fonts/Atami-Regular.otf');
+}
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'kano';
+  src: url('../fonts/Kano.otf');
+}
+body {
+  font-family: roboto, sans-serif;
+}
+h1 {
+  font-family: atami_disp;
+}
+h2 {
+  font-family: atami_reg;
+}
+.admin_name {
+  font-family: atami_reg;
+}
+/*Typo bouton démarrer page accueil*/
+.button_link {
+  font-family: atami_disp;
+}
