@@ -12,7 +12,6 @@ input, textarea {
   /* Largeur de la zone d'input responsive */
   width: 40%;
   /* Même police pour les zones d'input */
-  font-style: sans-serif;
   /* Couleur de fond */
   background-color: #EDEDE5;
 }
@@ -64,13 +63,5 @@ fieldset:last-of-type {
 }
 .iContact {
   /* Mise en forme du texte */
-  font-style: kano, sans-serif;
   font-size: 0.8em;
-}
-@font-face {
-  font-family: "kano";
-  src: url("Kano.otf");
-}
-legend, .labContact, .contactObligatoire {
-  font-style: kano, sans-serif;
 }
