@@ -56,109 +56,22 @@
     transform: translate(-50%);
 }
 
-/* Fonts ---------------------------------------------------------------------- */
-@font-face
-{
-    src: url("fonts/Alpha Sausage.ttf");
-    font-family: "Alpha Sausage";
-}
-
-@font-face
-{
-    src: url("fonts/AustieBostKittenKlub.ttf");
-    font-family: "Kitten";
-}
-
 /* CSS ------------------------------------------------------------------------ */
 body
 {
     position: relative;
     margin: 0;
-    background-image: url("images/500-blanc-kaolin.png");
+    background-image: url("../images/500-blanc-kaolin.png");
     background-position: center;
     background-attachment: fixed;
-}
-
-header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-    width: 100%;
-    color: #B44D2A;
-}
-
-h1 {
-    height: 50px;
-    margin: 0;
-    padding: 20px 0 20px 0;
-    background-image: url("images/cat.png");
-    background-position: center;
-    text-align: center;
-    font-family: "Alpha Sausage";
-    color: #B44D2A;
-}
-
-#title
-{
-    display: flex;
-    width: 100%;
-    margin: 0 auto 0 auto;
-    justify-content: center;
-}
-
-#title span
-{
-    font-size: 200%;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-ul li {
-    flex-grow: 1;
-    border: 1px solid grey;
-    border-radius: 3px;
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-    background-color: pink;
-    font-family: "Kitten";
-}
-
-ul li:hover {
-    background-color: #99D3F7;
-    transition: 0.3s;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    background-color: pink;
-}
-
-footer p {
-    margin-top: 10px;
-    text-align: center;
 }
 
 div.article-container
 {
     display: none;
+    box-sizing: border-box;
     width: 100%;
-    padding-top: 135px;
-    padding-bottom: 80px;
+    padding: 150px 10% 95px 10%;
 }
 
 div.article-container:target
@@ -168,9 +81,9 @@ div.article-container:target
 
 div article
 {
+    position: relative;
     box-sizing: border-box;
     width: 100%;
-    padding-bottom: 12vw;
     border: 3px solid #000000;
     background-color: #FFFFFF;
 }
@@ -181,7 +94,7 @@ div article h2
     padding: 0;
     padding-left: 1%;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 250%;
     border: 2px solid #FF0000;
     background-color: #F0F0F0;
 }
@@ -194,8 +107,8 @@ div article section
 
 div article section div.image-container
 {
-    box-sizing: border-box;
     position: relative;
+    box-sizing: border-box;
     margin-right: 0.5%;
     margin-top: 0.25%;
     opacity: 0.75;
@@ -220,7 +133,7 @@ div:not(#A4) article section div img
 div article section div p
 {
     position: absolute;
-    background-image: url(images/bulle.png);
+    background-image: url(../images/bulle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-width: 50%;
@@ -240,16 +153,17 @@ div article a
 div article a div.button
 {
     display: inline-block;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     bottom: 0;
-    width: 10vw;
-    height: 10vw;
+    width: 80px;
+    height: 80px;
     border: 1px solid #000000;
     border-radius: 50%;
-    margin: 1vw;
+    margin: 0;
     padding: 0;
     background-color: #0000FF;
-    opacity: 0.25
+    opacity: 0.25;
 }
 
 div article a div.button-left
@@ -274,51 +188,28 @@ div article a div p
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 500%;
     margin: 0;
     color: #FF0000;
 }
 
 /* Media queries -------------------------------------------------------------- */
-@media screen and (max-width: 800px)
+@media screen and (max-width: 500px)
 {
-    header h1
-    {
-        border: 1px solid black;
-        border-radius: 5px;
-        height: 150px;
-    }
-
-    #title
-    {
-        flex-direction: column;
-    }
-
-    #title span
-    {
-        margin: 0;
-    }
-
-    header ul
-    {
-        display: none;
-    }
-
-    footer
-    {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-
     div.article-container
     {
-        padding-top: 150px;
+        padding-top: 177px;
     }
 
     div article section
     {
         flex-direction: column;
+    }
+
+    div article section div img
+    {
+        width: 100vw;
+        height: auto;
     }
 
     div article section div p
