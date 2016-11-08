@@ -71,7 +71,7 @@ div.article-container
     display: none;
     box-sizing: border-box;
     width: 100%;
-    padding: 150px 10% 95px 10%;
+    padding: 155px 10% 95px 10%;
 }
 
 div.article-container:target
@@ -198,7 +198,7 @@ div article a div p
 {
     div.article-container
     {
-        padding-top: 177px;
+        padding-top: 175px;
     }
 
     div article section
@@ -210,6 +210,11 @@ div article a div p
     {
         width: 100vw;
         height: auto;
+    }
+
+    div article a div.button
+    {
+        opacity: 0.8;
     }
 
     div article section div p
