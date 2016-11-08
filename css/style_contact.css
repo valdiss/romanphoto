@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-image: url("500-blanc-kaolin.png");
+  background-position: center;
+  background-attachment: fixed;
+}
+input, textarea {
+  /* Reformatage bordure */
+  border: 1px solid #999;
+  box-sizing: border-box;
+  border-radius: 2px;
+  /* Largeur de la zone d'input responsive */
+  width: 40%;
+  /* Même police pour les zones d'input */
+  /* Couleur de fond */
+  background-color: #EDEDE5;
+}
+input:focus, textarea:focus {
+  /* Afin de réhausser les zones d'input */
+  border-color: black;
+}
+.labContact {
+  /* Ajustement des labels : à droite, collé aux zones d'input */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  /* Espacement augmenté */
+  margin-top: 5px;
+}
+.divContact:last-of-type {
+  /* Espacement augmenté */
+  margin-bottom: 5px;
+}
+.divContactInfo {
+  /* Display flex afin de mettre le label en haut, et non en bas de la textarea */
+  display: flex;
+}
+.divContactInfo .labContact {
+  /* Espacement augmenté */
+  margin-right: 8px;
+}
+.contact {
+  /* Centrage de la zone de contact */
+  margin: 2% auto;
+  width: 80%;
+}
+.sendMessage {
+  /* Espacement augmenté */
+  margin-top: 5px;
+}
+.contactObligatoire {
+  /* Mise en valeur de l'astérisque */
+  font-weight: bolder;
+  color: red;
+}
+fieldset {
+  /* Arrondi sur les bordures extérieurs */
+  border-radius: 10px;
+}
+fieldset:last-of-type {
+  /* Espacement augmenté */
+  margin-top: 8px;
+}
+.iContact {
+  /* Mise en forme du texte */
+  font-size: 0.8em;
+}
