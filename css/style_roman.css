@@ -156,29 +156,34 @@ div article a div.button
     position: fixed;
     z-index: 1;
     bottom: 0;
-    width: 80px;
-    height: 80px;
-    border: 1px solid #000000;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin: 0;
+    margin-bottom: 85px;
     padding: 0;
-    background-color: #0000FF;
+    background-color: #4d4d4d;
     opacity: 0.25;
+}
+.button-right p {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 div article a div.button-left
 {
     left: 0;
+    margin-left: 25px;
 }
 
 div article a div.button-right
 {
     right: 0;
+    margin-right: 25px;
 }
 
 div article a div.button:hover
 {
-    opacity: 1;
+    opacity: 0.7;
 }
 
 div article a div p
@@ -188,9 +193,9 @@ div article a div p
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bold;
-    font-size: 500%;
+    font-size: 200%;
     margin: 0;
-    color: #FF0000;
+    color: black;
 }
 
 /* Media queries -------------------------------------------------------------- */
