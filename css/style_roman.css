@@ -111,7 +111,7 @@ div article section div.image-container
     box-sizing: border-box;
     margin-right: 0.5%;
     margin-top: 0.25%;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
 }
 
 div article section div:first-child
@@ -125,10 +125,10 @@ div article section div img
     max-height: 1080px;
 }
 
-div:not(#A4) article section div img
+/*div:not(#A4) article section div img
 {
     filter: grayscale(50%);
-}
+}*/
 
 div article section div p
 {
