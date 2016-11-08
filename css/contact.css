@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body {
   margin: 0;
   background-image: url("../images/500-blanc-kaolin.png");
@@ -41,8 +44,12 @@ input:focus, textarea:focus {
 }
 .contact {
   /* Centrage de la zone de contact */
-  margin: 2% auto;
+  margin: 0 auto ;
   width: 80%;
+}
+.masterContact{
+  margin: 155px 0 95px;
+  position: relative;
 }
 .sendMessage {
   /* Espacement augmenté */
