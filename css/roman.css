@@ -202,6 +202,8 @@ div article a div p
     div.article-container
     {
         padding-top: 175px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     div article section
@@ -217,7 +219,23 @@ div article a div p
 
     div article a div.button
     {
-        opacity: 0.8;
+        top: 50%;
+        translate(0, -50%);
+        height: 60px;
+        width: 60px;
+        opacity: 0.75;
+    }
+
+    div article a div.button-left
+    {
+        left: 0;
+        transform: translate(0);
+    }
+
+    div article a div.button-right
+    {
+        right: 0;
+        transform: translate(0);
     }
 
     div article section div p

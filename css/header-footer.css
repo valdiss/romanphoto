@@ -44,11 +44,12 @@ header ul {
 header ul li {
     flex-grow: 1;
     box-sizing: border-box;
-    height: 45px;
+    height: 40px;
     border: 1px solid black;
     list-style: none;
     text-align: center;
-    padding: 12px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     background-color: #FF8353;
     color: black;
     font-size: 1.2em;
@@ -73,6 +74,10 @@ footer a
     color:black;
     font-family: atami_reg;
 }
+footer a:hover
+{
+    border-bottom: 2px solid black;
+}
 footer p {
     margin-top: 10px;
     text-align: center;
@@ -87,7 +92,6 @@ footer p {
     header h1
     {
         border: 1px solid black;
-        border-radius: 5px;
         height: 160px;
     }
 
