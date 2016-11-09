@@ -161,7 +161,7 @@ div article a div.button
     border-radius: 50%;
     margin: 0;
     padding: 0;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 .button-right p {
   margin-right: auto;
@@ -182,7 +182,7 @@ div article a div.button-right
 
 div article a div.button:hover
 {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 div article a div p
@@ -193,7 +193,7 @@ div article a div p
     transform: translate(-50%, -50%);
     font-size: 500%;
     margin: 0;
-    color: black;
+    color: #FF8353;
 }
 
 /* Media queries -------------------------------------------------------------- */
