@@ -71,7 +71,7 @@ div.article-container
     display: none;
     box-sizing: border-box;
     width: 100%;
-    padding: 155px 5% 95px 5%;
+    padding: 135px 5% 95px 5%;
 }
 
 div.article-container:target
