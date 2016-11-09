@@ -71,7 +71,7 @@ div.article-container
     display: none;
     box-sizing: border-box;
     width: 100%;
-    padding: 155px 10% 95px 10%;
+    padding: 155px 5% 95px 5%;
 }
 
 div.article-container:target
@@ -155,30 +155,31 @@ div article a div.button
     display: inline-block;
     position: fixed;
     z-index: 1;
-    bottom: 0;
+    bottom: 95px;
     width: 80px;
     height: 80px;
-    border: 1px solid #000000;
     border-radius: 50%;
     margin: 0;
     padding: 0;
-    background-color: #0000FF;
     opacity: 0.25;
 }
 
 div article a div.button-left
 {
-    left: 0;
+    left: 2.5%;
+    transform: translate(-50%);
 }
 
 div article a div.button-right
 {
-    right: 0;
+    right: 2.5%;
+    transform: translate(50%);
 }
 
 div article a div.button:hover
 {
     opacity: 1;
+    font-weight: bold;
 }
 
 div article a div p
@@ -187,10 +188,9 @@ div article a div p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
     font-size: 500%;
     margin: 0;
-    color: #FF0000;
+    color: #B44D2A;
 }
 
 /* Media queries -------------------------------------------------------------- */
