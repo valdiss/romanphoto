@@ -7,19 +7,15 @@
   src: url('../fonts/Atami-Regular.otf');
 }
 @font-face {
-  font-family: 'roboto';
-  src: url('../fonts/Roboto-Regular.ttf');
-}
-@font-face {
-  font-family: 'kano';
-  src: url('../fonts/Kano.otf');
+  font-family: 'open_sans';
+  src: url('../fonts/OpenSans-Regular.ttf');
 }
 @font-face {
   font-family: 'gosmick';
   src: url('../fonts/GosmickSans.ttf');
 }
 body {
-  font-family: roboto, sans-serif;
+  font-family: open_sans, sans-serif;
 }
 h1 {
   font-family: atami_disp;

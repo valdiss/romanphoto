@@ -71,7 +71,7 @@ div.article-container
     display: none;
     box-sizing: border-box;
     width: 100%;
-    padding: 150px 10% 95px 10%;
+    padding: 135px 5% 95px 5%;
 }
 
 div.article-container:target
@@ -95,7 +95,7 @@ div article h2
     padding-left: 1%;
     font-weight: bold;
     font-size: 250%;
-    border: 2px solid #FF0000;
+    border: 2px solid #FF8353;
     background-color: #F0F0F0;
 }
 
@@ -111,7 +111,7 @@ div article section div.image-container
     box-sizing: border-box;
     margin-right: 0.5%;
     margin-top: 0.25%;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
 }
 
 div article section div:first-child
@@ -125,10 +125,10 @@ div article section div img
     max-height: 1080px;
 }
 
-div:not(#A4) article section div img
+/*div:not(#A4) article section div img
 {
     filter: grayscale(50%);
-}
+}*/
 
 div article section div p
 {
@@ -155,30 +155,34 @@ div article a div.button
     display: inline-block;
     position: fixed;
     z-index: 1;
-    bottom: 0;
+    bottom: 95px;
     width: 80px;
     height: 80px;
-    border: 1px solid #000000;
     border-radius: 50%;
     margin: 0;
     padding: 0;
-    background-color: #0000FF;
     opacity: 0.25;
+}
+.button-right p {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 div article a div.button-left
 {
-    left: 0;
+    left: 2.5%;
+    transform: translate(-50%);
 }
 
 div article a div.button-right
 {
-    right: 0;
+    right: 2.5%;
+    transform: translate(50%);
 }
 
 div article a div.button:hover
 {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 div article a div p
@@ -187,10 +191,9 @@ div article a div p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: bold;
     font-size: 500%;
     margin: 0;
-    color: #FF0000;
+    color: black;
 }
 
 /* Media queries -------------------------------------------------------------- */
@@ -198,7 +201,9 @@ div article a div p
 {
     div.article-container
     {
-        padding-top: 177px;
+        padding-top: 175px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     div article section
@@ -210,6 +215,27 @@ div article a div p
     {
         width: 100vw;
         height: auto;
+    }
+
+    div article a div.button
+    {
+        top: 50%;
+        translate(0, -50%);
+        height: 60px;
+        width: 60px;
+        opacity: 0.75;
+    }
+
+    div article a div.button-left
+    {
+        left: 0;
+        transform: translate(0);
+    }
+
+    div article a div.button-right
+    {
+        right: 0;
+        transform: translate(0);
     }
 
     div article section div p
