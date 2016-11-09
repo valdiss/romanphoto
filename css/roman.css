@@ -95,7 +95,7 @@ div article h2
     padding-left: 1%;
     font-weight: bold;
     font-size: 250%;
-    border: 2px solid #FF0000;
+    border: 2px solid #FF8353;
     background-color: #F0F0F0;
 }
 
@@ -111,7 +111,7 @@ div article section div.image-container
     box-sizing: border-box;
     margin-right: 0.5%;
     margin-top: 0.25%;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
 }
 
 div article section div:first-child
@@ -125,10 +125,10 @@ div article section div img
     max-height: 1080px;
 }
 
-div:not(#A4) article section div img
+/*div:not(#A4) article section div img
 {
     filter: grayscale(50%);
-}
+}*/
 
 div article section div p
 {
@@ -163,6 +163,10 @@ div article a div.button
     padding: 0;
     opacity: 0.25;
 }
+.button-right p {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 div article a div.button-left
 {
@@ -178,8 +182,7 @@ div article a div.button-right
 
 div article a div.button:hover
 {
-    opacity: 1;
-    font-weight: bold;
+    opacity: 0.8;
 }
 
 div article a div p
@@ -190,7 +193,7 @@ div article a div p
     transform: translate(-50%, -50%);
     font-size: 500%;
     margin: 0;
-    color: #B44D2A;
+    color: black;
 }
 
 /* Media queries -------------------------------------------------------------- */
