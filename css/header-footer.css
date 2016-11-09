@@ -110,5 +110,6 @@ footer p {
     }
     footer p, .copyright {
       font-size: 0.9em;
+      line-height: 1.1em;
     }
 }
