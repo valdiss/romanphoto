@@ -163,6 +163,7 @@ div article a div.button
     padding: 0;
     opacity: 0.25;
 }
+/* C'est quoi ce truc ? */
 .button-right p {
   margin-right: auto;
   margin-left: auto;
@@ -193,7 +194,13 @@ div article a div p
     transform: translate(-50%, -50%);
     font-size: 500%;
     margin: 0;
-    color: black;
+    color: #FF8353;
+    text-shadow: #000000 2px 2px, #000000 -2px -2px, #000000 -2px 2px, #000000 2px -2px, #000000 2px 0px, #000000 -2px 0px, #000000 0px 2px, #000000 0px -2px;
+}
+
+div article a div.button:hover p
+{
+    font-weight: bold;
 }
 
 /* Media queries -------------------------------------------------------------- */
@@ -236,10 +243,5 @@ div article a div p
     {
         right: 0;
         transform: translate(0);
-    }
-
-    div article section div p
-    {
-        font-size: 4vw;
     }
 }
