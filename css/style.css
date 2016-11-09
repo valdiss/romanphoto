@@ -100,4 +100,6 @@ button:hover {
   padding: 10px;
   color: white;
   text-shadow: 0px -2px #BF623E;
+  display: block;
+  width: 100%;
 }
