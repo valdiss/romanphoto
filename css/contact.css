@@ -1,7 +1,9 @@
-html{
-  height: 100%;
-}
 body {
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
   margin: 0;
   background-image: url("../images/500-blanc-kaolin.png");
   background-position: center;
