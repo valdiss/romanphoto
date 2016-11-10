@@ -84,24 +84,30 @@ button:hover {
 /*MEDIA QUERIES*/
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: 25px;
     margin-bottom: 35px;
   }
   .admins {
-    width:25%;
+    width:23%;
   }
   .admin_name {
-    font-size: 1.2em;
-  }
-  .avatar {
-    width:100%;
-  }
-  #avatars_box {
-    width: 100%;
-    margin: 0;
-  }
-  #presentation p {
     font-size: 1em;
   }
+  .avatar {
+    width:80%;
+  }
+  #avatars_box {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #presentation p {
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button {
+    /*margin-bottom: 90px;*/
+    margin-top: 20px;
 }
