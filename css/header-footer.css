@@ -109,7 +109,7 @@ footer p {
         display: none;
     }
     footer p, .copyright {
-      font-size: 0.9em;
+      font-size: 1em;
       line-height: 1.1em;
     }
 }
