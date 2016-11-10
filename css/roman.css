@@ -71,7 +71,7 @@ div.article-container
     display: none;
     box-sizing: border-box;
     width: 100%;
-    padding: 155px 5% 95px 5%;
+    padding: 135px 5% 95px 5%;
 }
 
 div.article-container:target
@@ -163,6 +163,7 @@ div article a div.button
     padding: 0;
     opacity: 0.5;
 }
+/* C'est quoi ce truc ? */
 .button-right p {
   margin-right: auto;
   margin-left: auto;
@@ -196,12 +197,19 @@ div article a div p
     color: #FF8353;
 }
 
+div article a div.button:hover p
+{
+    font-weight: bold;
+}
+
 /* Media queries -------------------------------------------------------------- */
 @media screen and (max-width: 500px)
 {
     div.article-container
     {
-        padding-top: 175px;
+        padding-top: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     div article section
@@ -217,11 +225,22 @@ div article a div p
 
     div article a div.button
     {
-        opacity: 0.8;
+        top: 50%;
+        translate(0, -50%);
+        height: 60px;
+        width: 60px;
+        opacity: 0.75;
     }
 
-    div article section div p
+    div article a div.button-left
     {
-        font-size: 4vw;
+        left: 0;
+        transform: translate(0);
+    }
+
+    div article a div.button-right
+    {
+        right: 0;
+        transform: translate(0);
     }
 }
