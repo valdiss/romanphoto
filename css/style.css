@@ -43,23 +43,6 @@ h1 {
    width:20%;
    display: inline-block;
  }
- @media screen and (max-width: 500px) {
-   h1 {
-     font-size: 2em;
-     margin-top: 25px;
-     margin-bottom: 35px;
-   }
-   .admin_name {
-     font-size: 1.2em;
-   }
-   .avatar {
-     width:75%;
-   }
-   #avatars_box {
-     width: 100%;
-     margin: 0;
-   }
- }
 #presentation {
   margin-top: 30px;
   margin-left: 60px;
@@ -69,11 +52,6 @@ h1 {
   font-size: 1.1em;
   margin-bottom: 1px;
   margin-top: 0.3em;
-}
-@media screen and (max-width: 500px) {
-  #presentation p {
-    font-size: 0.9em;
-  }
 }
 .button_block {
   display: flex;
@@ -102,4 +80,28 @@ button:hover {
   text-shadow: 0px -2px #BF623E;
   display: block;
   width: 100%;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1.3em;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+  .admins {
+    width:25%;
+  }
+  .admin_name {
+    font-size: 1.2em;
+  }
+  .avatar {
+    width:100%;
+  }
+  #avatars_box {
+    width: 100%;
+    margin: 0;
+  }
+  #presentation p {
+    font-size: 1em;
+  }
 }
