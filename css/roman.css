@@ -36,24 +36,62 @@
     left: 50%;
     transform: translate(-50%);
 }
-
+/*CHAPITRE 3*/
+/*Ligne 1*/
+  /*Case 1*/
+#A3-S1-D1-P1 {
+    top: 5px;
+}
+#A3-S1-D1-P2 {
+    bottom: 10px;
+    right: 10px;
+}
+  /*Case 2*/
+#A3-S1-D2-P1 {
+  top: 40px;
+  right: 50%;
+}
+#A3-S1-D2-P2 {
+  bottom: 15px;
+  left: 50%;
+}
+  /*Case 3*/
 #A3-S1-D3-P1
 {
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 2px;
 }
-
 #A3-S1-D3-P2
 {
-    top: 0;
-    right: 0;
+    bottom: 10px;
+    left: 20%;
 }
-
-#A3-S1-D3-P3
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+/*Ligne 2*/
+  /*Case 1*/
+#A3-S2-D1-P1 {
+  top: 2px;
+}
+/*Case 2*/
+#A3-S2-D2-P1 {
+  top: 0;
+  right: 20%;
+  text-align: left;
+}
+#A3-S2-D2-P2 {
+  bottom: 5px;
+  text-align: right;
+}
+  /*Case 3*/
+#A3-S2-D3-P1 {
+  bottom: 5px;
+}
+/*Case 4*/
+#A3-S2-D4-P1 {
+  top: 5px;
+  left: 60%;
+}
+.children_speak {
+  color: #ea657c;
 }
 
 #A4-S5-D1-P1
@@ -168,7 +206,6 @@ div article section div p
     background-image: url(../images/bulle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    max-width: 50%;
     margin: 0;
     padding: 2% 3% 2% 3%;
     line-height: 1;
