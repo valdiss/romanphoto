@@ -16,14 +16,14 @@ header h1 {
     background-image: url("../images/background_header_sicavousva.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
 }
 
 header #title
 {
     display: flex;
-    margin: 0 auto 0 auto;
+    margin: 0;
     justify-content: center;
 }
 
