@@ -1,4 +1,4 @@
-/* Bubble text ---------------------------------------------------------------- */
+/* Bubble text positions ---------------------------------------------------------------- */
 #A1-S1-D1-P1
 {
     top: 0;
@@ -58,7 +58,12 @@
 
 /* Chapitre A4 ------------------------ */
 /* Section 1 ------ */
-/* pas de texte */
+#A4-S1-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+
 /* Section 2 ------ */
 #A4-S2-D1-P1
 {
@@ -238,15 +243,15 @@ div article section div img
 div article section div p
 {
     position: absolute;
-    background-image: url(../images/bulle.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 2% 3% 2% 3%;
     line-height: 1;
     text-align: center;
     font-size: 2vw;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 100px;
     color: #000000;
 }
 
@@ -267,11 +272,6 @@ div article a div.button
     margin: 0;
     padding: 0;
     opacity: 0.5;
-}
-/* C'est quoi ce truc ? */
-.button-right p {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 div article a div.button-left
@@ -305,6 +305,68 @@ div article a div p
 div article a div.button:hover p
 {
     font-weight: bold;
+}
+
+/* Bubble text other properties ----------------------------------------------- */
+
+
+/* Chapitre A4 ------------------------ */
+/* Section 1 ------ */
+#A4-S1-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+/* Section 2 ------ */
+#A4-S2-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+#A4-S2-D2-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+/* Section 4 ------ */
+#A4-S4-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+#A4-S4-D2-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+#A4-S4-D3-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+#A4-S4-D4-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+/* Section 6 ------ */
+#A4-S6-D1-P1
+{
+    font-style: italic;
 }
 
 /* Media queries -------------------------------------------------------------- */
