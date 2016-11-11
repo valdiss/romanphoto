@@ -36,25 +36,27 @@
     left: 50%;
     transform: translate(-50%);
 }
-
+/*CHAPITRE 3*/
+/*Ligne 1*/
+#A3-S1-D1-P1 {
+    top: 5px;
+}
+#A3-S1-D1-P2 {
+    bottom: 10px;
+    right: 10px;
+}
+/*Ligne 3*/
 #A3-S1-D3-P1
 {
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 2px;
 }
-
 #A3-S1-D3-P2
 {
-    top: 0;
-    right: 0;
+    bottom: 10px;
+    left: 20%;
 }
-
-#A3-S1-D3-P3
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
+/*Ligne 4*/
 /* CSS ------------------------------------------------------------------------ */
 body
 {
@@ -135,7 +137,6 @@ div article section div p
     background-image: url(../images/bulle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    max-width: 50%;
     margin: 0;
     padding: 2% 3% 2% 3%;
     line-height: 1;
