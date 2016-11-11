@@ -38,6 +38,7 @@
 }
 /*CHAPITRE 3*/
 /*Ligne 1*/
+  /*Case 1*/
 #A3-S1-D1-P1 {
     top: 5px;
 }
@@ -45,7 +46,16 @@
     bottom: 10px;
     right: 10px;
 }
-/*Ligne 3*/
+  /*Case 2*/
+#A3-S1-D2-P1 {
+  top: 40px;
+  right: 50%;
+}
+#A3-S1-D2-P2 {
+  bottom: 15px;
+  left: 50%;
+}
+  /*Case 3*/
 #A3-S1-D3-P1
 {
     top: 5px;
@@ -56,7 +66,33 @@
     bottom: 10px;
     left: 20%;
 }
-/*Ligne 4*/
+/*Ligne 2*/
+  /*Case 1*/
+#A3-S2-D1-P1 {
+  top: 2px;
+}
+/*Case 2*/
+#A3-S2-D2-P1 {
+  top: 0;
+  right: 20%;
+  text-align: left;
+}
+#A3-S2-D2-P2 {
+  bottom: 5px;
+  text-align: right;
+}
+  /*Case 3*/
+#A3-S2-D3-P1 {
+  bottom: 5px;
+}
+/*Case 4*/
+#A3-S2-D4-P1 {
+  top: 5px;
+  left: 60%;
+}
+.children_speak {
+  color: #ea657c;
+}
 /* CSS ------------------------------------------------------------------------ */
 body
 {
