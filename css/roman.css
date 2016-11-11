@@ -1,4 +1,4 @@
-/* Bubble text ---------------------------------------------------------------- */
+/* Bubble text positions ---------------------------------------------------------------- */
 #A1-S1-D1-P1
 {
     top: 0;
@@ -94,30 +94,113 @@
   color: #ea657c;
 }
 
+/* Chapitre A4 ------------------------ */
+/* Section 1 ------ */
+#A4-S1-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+
+/* Section 2 ------ */
+#A4-S2-D1-P1
+{
+    bottom: 0;
+    left: 0;
+}
+
+#A4-S2-D2-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A4-S2-D3-P1
+{
+    top: 0;
+    left: 0;
+}
+#A4-S2-D3-P2
+{
+    bottom: 0;
+    right: 0;
+}
+
+/* Section 3 ------ */
+#A4-S3-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+#A4-S3-D1-P2
+{
+    bottom: 0;
+    right: 0;
+}
+
+#A4-S3-D2-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A4-S3-D3-P1
+{
+    bottom: 0;
+    right: 0;
+}
+
+/* Section 4 ------ */
+#A4-S4-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A4-S4-D2-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A4-S4-D3-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A4-S4-D4-P1
+{
+    top: 0;
+    left: 0;
+}
+
+/* Section 5 ------ */
 #A4-S5-D1-P1
 {
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
 }
+
 #A4-S5-D2-P1
 {
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
 }
+
 #A4-S5-D3-P1
 {
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
 }
 
+/* Section 6 ------ */
 #A4-S6-D1-P1
 {
-    top: 0;
+    top: 35%;
     left: 50%;
     transform: translate(-50%);
+    font-style: italic;
 }
 
 /* CSS ------------------------------------------------------------------------ */
@@ -192,13 +275,8 @@ div article section div:first-child
 div article section div img
 {
     max-width: 100%;
-    max-height: 1080px;
+    max-height: 1045px;
 }
-
-/*div:not(#A4) article section div img
-{
-    filter: grayscale(50%);
-}*/
 
 div article section div p
 {
@@ -206,11 +284,15 @@ div article section div p
     background-image: url(../images/bulle.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    box-sizing: border-box;
     margin: 0;
     padding: 2% 3% 2% 3%;
     line-height: 1;
     text-align: center;
     font-size: 2vw;
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 100px;
     color: #000000;
 }
 
@@ -231,11 +313,6 @@ div article a div.button
     margin: 0;
     padding: 0;
     opacity: 0.5;
-}
-/* C'est quoi ce truc ? */
-.button-right p {
-  margin-right: auto;
-  margin-left: auto;
 }
 
 div article a div.button-left
@@ -269,6 +346,68 @@ div article a div p
 div article a div.button:hover p
 {
     font-weight: bold;
+}
+
+/* Bubble text other properties ----------------------------------------------- */
+
+
+/* Chapitre A4 ------------------------ */
+/* Section 1 ------ */
+#A4-S1-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+/* Section 2 ------ */
+#A4-S2-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FFFF00;
+}
+
+#A4-S2-D2-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+/* Section 4 ------ */
+#A4-S4-D1-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D2-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D3-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D4-P1
+{
+    border: 2px solid #000000;
+    border-radius: 0px;
+    background-color: #FF00FF;
+}
+
+/* Section 6 ------ */
+#A4-S6-D1-P1
+{
+    font-style: italic;
 }
 
 /* Media queries -------------------------------------------------------------- */
