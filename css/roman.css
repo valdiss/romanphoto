@@ -1,0 +1,276 @@
+/* Bubble text ---------------------------------------------------------------- */
+#A1-S1-D1-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A1-S1-D1-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A1-S1-D1-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A2-S1-D2-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A2-S1-D2-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A2-S1-D2-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A3-S1-D3-P1
+{
+    top: 0;
+    left: 0;
+}
+
+#A3-S1-D3-P2
+{
+    top: 0;
+    right: 0;
+}
+
+#A3-S1-D3-P3
+{
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A4-S5-D1-P1
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+#A4-S5-D2-P1
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+#A4-S5-D3-P1
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#A4-S6-D1-P1
+{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* CSS ------------------------------------------------------------------------ */
+body
+{
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-image: url("../images/500-blanc-kaolin.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div.article-container
+{
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 135px 5% 95px 5%;
+}
+
+div.article-container:target
+{
+    display: block;
+}
+
+div article
+{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    border: 3px solid #000000;
+    background-color: #FFFFFF;
+}
+
+div article h2
+{
+    margin: 0.5%;
+    padding: 0;
+    padding-left: 1%;
+    font-weight: bold;
+    font-size: 250%;
+    border: 2px solid #FF8353;
+    background-color: #F0F0F0;
+}
+
+div article section
+{
+    display: flex;
+    width: 100%;
+}
+
+div article section div.image-container
+{
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 0.5%;
+    margin-top: 0.25%;
+    /*opacity: 0.75;*/
+}
+
+div article section div:first-child
+{
+    margin-left: 0.5%;
+}
+
+div article section div img
+{
+    max-width: 100%;
+    max-height: 1080px;
+}
+
+/*div:not(#A4) article section div img
+{
+    filter: grayscale(50%);
+}*/
+
+div article section div p
+{
+    position: absolute;
+    background-image: url(../images/bulle.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 50%;
+    margin: 0;
+    padding: 2% 3% 2% 3%;
+    line-height: 1;
+    text-align: center;
+    font-size: 2vw;
+    color: #000000;
+}
+
+div article a
+{
+    text-decoration: none;
+}
+
+div article a div.button
+{
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    bottom: 95px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+/* C'est quoi ce truc ? */
+.button-right p {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div article a div.button-left
+{
+    left: 2.5%;
+    transform: translate(-50%);
+}
+
+div article a div.button-right
+{
+    right: 2.5%;
+    transform: translate(50%);
+}
+
+div article a div.button:hover
+{
+    opacity: 0.9;
+}
+
+div article a div p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    margin: 0;
+    color: #FF8353;
+}
+
+div article a div.button:hover p
+{
+    font-weight: bold;
+}
+
+/* Media queries -------------------------------------------------------------- */
+@media screen and (max-width: 500px)
+{
+    div.article-container
+    {
+        padding-top: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    div article section
+    {
+        flex-direction: column;
+    }
+
+    div article section div img
+    {
+        width: 100vw;
+        height: auto;
+    }
+
+    div article a div.button
+    {
+        top: 50%;
+        translate(0, -50%);
+        height: 60px;
+        width: 60px;
+        opacity: 0.75;
+    }
+
+    div article a div.button-left
+    {
+        left: 0;
+        transform: translate(0);
+    }
+
+    div article a div.button-right
+    {
+        right: 0;
+        transform: translate(0);
+    }
+}
