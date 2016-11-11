@@ -93,6 +93,10 @@
 .children_speak {
   color: #ea657c;
 }
+.star {
+  background-color: black;
+  margin-bottom: 0.3%;
+}
 
 /* Chapitre A4 ------------------------ */
 /* Section 1 ------ */
