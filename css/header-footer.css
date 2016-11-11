@@ -40,6 +40,7 @@ header ul {
     margin: 0;
     font-family: atami_reg;
     background-color: transparent;
+    height: 40px;
 }
 
 header ul li {
@@ -57,23 +58,10 @@ header ul li {
     border-right: 1px solid black;
 }
 
-header ul:after, header ul:before {
-    border: 1.5em solid #FF8353;
-    content: "";
-    float: left;
-}
-
-header ul:after {
-    border-right-color: transparent;
-}
-
-header ul:before {
-    border-left-color: transparent;
-}
-
 header ul li:hover {
     background-color: #CC6942;
-    border-top: 5px solid black;
+    box-shadow: inset 0px 3px 5px black;
+    padding-top: 13px;
     transition: 0.2s;
 }
 
