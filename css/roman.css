@@ -1,171 +1,3 @@
-/* Bubble text positions ---------------------------------------------------------------- */
-#A1-S1-D1-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A1-S1-D1-P2
-{
-    top: 0;
-    right: 0;
-}
-
-#A1-S1-D1-P3
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-#A2-S1-D2-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A2-S1-D2-P2
-{
-    top: 0;
-    right: 0;
-}
-
-#A2-S1-D2-P3
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-#A3-S1-D3-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A3-S1-D3-P2
-{
-    top: 0;
-    right: 0;
-}
-
-#A3-S1-D3-P3
-{
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-/* Chapitre A4 ------------------------ */
-/* Section 1 ------ */
-#A4-S1-D1-P1
-{
-    top: 0;
-    left: 0;
-}
-
-/* Section 2 ------ */
-#A4-S2-D1-P1
-{
-    bottom: 0;
-    left: 0;
-}
-
-#A4-S2-D2-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S2-D3-P1
-{
-    top: 0;
-    left: 0;
-}
-#A4-S2-D3-P2
-{
-    bottom: 0;
-    right: 0;
-}
-
-/* Section 3 ------ */
-#A4-S3-D1-P1
-{
-    top: 0;
-    left: 0;
-}
-#A4-S3-D1-P2
-{
-    bottom: 0;
-    right: 0;
-}
-
-#A4-S3-D2-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S3-D3-P1
-{
-    bottom: 0;
-    right: 0;
-}
-
-/* Section 4 ------ */
-#A4-S4-D1-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S4-D2-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S4-D3-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S4-D4-P1
-{
-    top: 0;
-    left: 0;
-}
-
-/* Section 5 ------ */
-#A4-S5-D1-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S5-D2-P1
-{
-    top: 0;
-    left: 0;
-}
-
-#A4-S5-D3-P1
-{
-    top: 0;
-    left: 0;
-}
-
-/* Section 6 ------ */
-#A4-S6-D1-P1
-{
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%);
-    font-style: italic;
-}
-
-/* CSS ------------------------------------------------------------------------ */
 body
 {
     min-height: 100vh;
@@ -174,11 +6,6 @@ body
     left: 0;
     width: 100%;
     margin: 0;
-    /*
-    background-image: url("../images/500-blanc-kaolin.png");
-    background-position: center;
-    background-attachment: fixed;
-    */
 }
 
 div.article-container
@@ -209,7 +36,7 @@ div article h2
     padding: 0;
     padding-left: 1%;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 2.5em;
     border: 2px solid #FF8353;
     background-color: #F0F0F0;
 }
@@ -248,7 +75,8 @@ div article section div p
     padding: 2% 3% 2% 3%;
     line-height: 1;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2em;
+    white-space: nowrap;
     background-color: #FFFFFF;
     border: 3px solid #000000;
     border-radius: 100px;
@@ -297,7 +125,7 @@ div article a div p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 500%;
+    font-size: 5em;
     margin: 0;
     color: #FF8353;
 }
@@ -305,68 +133,6 @@ div article a div p
 div article a div.button:hover p
 {
     font-weight: bold;
-}
-
-/* Bubble text other properties ----------------------------------------------- */
-
-
-/* Chapitre A4 ------------------------ */
-/* Section 1 ------ */
-#A4-S1-D1-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-/* Section 2 ------ */
-#A4-S2-D1-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-#A4-S2-D2-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-/* Section 4 ------ */
-#A4-S4-D1-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-#A4-S4-D2-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-#A4-S4-D3-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-#A4-S4-D4-P1
-{
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
-}
-
-/* Section 6 ------ */
-#A4-S6-D1-P1
-{
-    font-style: italic;
 }
 
 /* Media queries -------------------------------------------------------------- */
@@ -388,6 +154,11 @@ div article a div.button:hover p
     {
         width: 100vw;
         height: auto;
+    }
+
+    div article section div p
+    {
+        font-size: 0.55em;
     }
 
     div article a div.button
