@@ -36,24 +36,76 @@
     left: 50%;
     transform: translate(-50%);
 }
+/* CHAPITRE A3 ------------------------ */
+/* Section 1 ------ */
+/* Case 1 */
+#A3-S1-D1-P1 {
+    top: 0;
+    left: 0;
+}
+#A3-S1-D1-P2 {
+    bottom: 0;
+    right: 0;
+}
 
+/* Case 2 */
+#A3-S1-D2-P1 {
+    top: 0;
+    right: 0;
+}
+#A3-S1-D2-P2 {
+    bottom: 0;
+    left: 0;
+}
+
+/* Case 3 */
 #A3-S1-D3-P1
 {
     top: 0;
     left: 0;
 }
-
 #A3-S1-D3-P2
 {
-    top: 0;
-    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
-#A3-S1-D3-P3
-{
+/* Section 2 ------ */
+/* Case 1 */
+#A3-S2-D1-P1 {
+    top: 0;
+    left: 0;
+}
+
+/* Case 2 */
+#A3-S2-D2-P1 {
+    top: 0;
+    right: 0;
+    text-align: left;
+}
+#A3-S2-D2-P2 {
     bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
+    text-align: right;
+}
+
+/* Case 3 */
+#A3-S2-D3-P1 {
+    bottom: 0;
+    left: 0;
+}
+
+/* Case 4 */
+#A3-S2-D4-P1 {
+    top: 0;
+    left: 0;
+}
+.children_speak {
+    color: #ea657c;
+}
+.star {
+    background-color: black;
+    margin-bottom: 0.3%;
 }
 
 /* Chapitre A4 ------------------------ */
