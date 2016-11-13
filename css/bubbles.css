@@ -1,23 +1,71 @@
 /* Bubble text ---------------------------------------------------------------- */
+/* CHAPITRE A1 ------------------------ */
+/* Section 1 ------ */
+/* Case 1 */
 #A1-S1-D1-P1
 {
     top: 0;
     left: 0;
+    border: 2px solid #000000;
+    border-radius: 0px;
 }
 
 #A1-S1-D1-P2
 {
-    top: 0;
-    right: 0;
+    top: 26.5%;
+    right: 5%;
 }
 
 #A1-S1-D1-P3
 {
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    top: 28%;
+    left: 0;
+}
+/* Case 2 */
+#A1-S1-D2-P1
+{
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* Case 3 */
+#A1-S1-D3-P1
+{
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#A1-S1-D3-P2
+{
+  top: 46%;
+  left: 67%;
+}
+/* Case 4 */
+#A1-S2-D1-P1
+{
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#A1-S2-D1-P2
+{
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* Case 5 */
+#A1-S2-D2-P1
+{
+  top: 20%;
+  right: 3%;
+}
+#A1-S2-D2-P2
+{
+  bottom: 17%;
+  left: 0;
 }
 
+/* CHAPITRE A2 ------------------------ */
 #A2-S1-D2-P1
 {
     top: 0;
