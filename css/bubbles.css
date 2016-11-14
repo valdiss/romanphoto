@@ -168,6 +168,11 @@ mettre bottom: 1.5%;*/
 .children_speak {
     color: #ea657c;
 }
+.thinking {
+  color: #4c4c4c;
+  font-style: italic;
+  border: 3px solid #4c4c4c;
+}
 .star {
     background-color: black;
     margin-bottom: 0.3%;
