@@ -1,35 +1,50 @@
+/* Font import ---------------------------------------------------------------- */
 @font-face {
-  font-family: 'atami_disp';
-  src: url('../fonts/Atami-Display.otf');
+    font-family: 'atami_disp';
+    src: url('../fonts/Atami-Display.otf');
 }
 @font-face {
-  font-family: 'atami_reg';
-  src: url('../fonts/Atami-Regular.otf');
+    font-family: 'atami_reg';
+    src: url('../fonts/Atami-Regular.otf');
 }
 @font-face {
-  font-family: 'open_sans';
-  src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Regular.ttf');
 }
 @font-face {
-  font-family: 'gosmick';
-  src: url('../fonts/GosmickSans.ttf');
+    font-family: 'gosmick';
+    src: url('../fonts/GosmickSans.ttf');
 }
+
+/* commom body ---------------------------------------------------------------- */
 body {
-  font-family: open_sans, sans-serif;
+    font-family: open_sans, sans-serif;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F0F0F0;
 }
+
+/* Common fonts for selectors ------------------------------------------------- */
 h1 {
-  font-family: atami_disp;
+    font-family: atami_disp;
 }
 h2 {
-  font-family: atami_reg;
+    font-family: atami_reg;
 }
+/* Nom des auteurs */
 .admin_name {
-  font-family: atami_reg;
+    font-family: atami_reg;
 }
-/*Typo bouton démarrer page accueil*/
+/* Bouton 'demarrez' page accueil */
 .button_link {
-  font-family: atami_disp;
+    font-family: atami_disp;
 }
+/* Bulles de texte */
 .text_bulle {
-  font-family: gosmick;
+    font-family: gosmick;
 }
