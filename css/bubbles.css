@@ -129,9 +129,9 @@ mettre bottom: 1.5%;*/
 /* Case 1 */
 #A3-S2-D1-P1 {
     top: 0;
-    left: 50%;
-    transform: translate(-50%);
+    left: 0;
     text-align: left;
+    width: 100%;
 }
 
 /* Case 2 */
