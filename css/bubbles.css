@@ -114,13 +114,13 @@ mettre bottom: 1.5%;*/
 /* Case 3 */
 #A3-S1-D3-P1
 {
-    top: 0;
-    left: 0;
+    top: 3%;
+    left: 1%;
 }
 #A3-S1-D3-P2
 {
-    bottom: 1.5%;
-    right: 0;
+    bottom: 3%;
+    right: 1%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -148,7 +148,7 @@ mettre bottom: 1.5%;*/
 
 /* Case 3 */
 #A3-S2-D3-P1 {
-    top: 0;
+    top: 1.5%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -167,6 +167,7 @@ mettre bottom: 1.5%;*/
 }
 .children_speak {
     color: #ea657c;
+    border: 3px solid #ea657c;
 }
 .thinking {
   color: #4c4c4c;
@@ -192,6 +193,14 @@ mettre bottom: 1.5%;*/
 /* Section 2 ------ */
 /* Case 1 */
 #A4-S2-D1-P1
+{
+    top: 0;
+    left: 0;
+    background-color: #FF00FF;
+}
+
+
+#A4-S2-D1-P2
 {
     bottom: 0;
     left: 0;
@@ -248,6 +257,13 @@ mettre bottom: 1.5%;*/
 /* Case 1 */
 #A4-S4-D1-P1
 {
+    bottom: 0;
+    left: 0;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D1-P2
+{
     top: 0;
     left: 0;
     background-color: #FF00FF;
@@ -255,6 +271,13 @@ mettre bottom: 1.5%;*/
 
 /* Case 2 */
 #A4-S4-D2-P1
+{
+    bottom: 0;
+    left: 0;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D2-P2
 {
     top: 0;
     left: 0;
@@ -264,6 +287,13 @@ mettre bottom: 1.5%;*/
 /* Case 3 */
 #A4-S4-D3-P1
 {
+    bottom: 0;
+    left: 0;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D3-P2
+{
     top: 0;
     left: 0;
     background-color: #FF00FF;
@@ -271,6 +301,13 @@ mettre bottom: 1.5%;*/
 
 /* Case 4 */
 #A4-S4-D4-P1
+{
+    bottom: 0;
+    left: 0;
+    background-color: #FF00FF;
+}
+
+#A4-S4-D4-P2
 {
     top: 0;
     left: 0;
