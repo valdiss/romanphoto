@@ -34,7 +34,6 @@ input:focus, textarea:focus {
     margin-right: 8px;
 }
 .contact {
-    <<<<<<< HEAD
     /* Centrage de la zone de contact */
     margin: 0 auto;
     width: 80%;
@@ -42,15 +41,6 @@ input:focus, textarea:focus {
 .masterContact {
     margin: 135px 0 95px;
     position: relative;
-    =======
-    /* Centrage de la zone de contact */
-    margin: 0 auto ;
-    width: 80%;
-}
-.masterContact{
-    margin: 135px 0 95px;
-    position: relative;
-    >>>>>>> 1638a624ffe42a0382b562dadfc1742af469c26f
 }
 .sendMessage {
     /* Espacement augmenté */
@@ -76,20 +66,14 @@ fieldset:last-of-type {
 .intro {
     text-align: center;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 500px) {
-    .masterContact {
+.contact > fieldset{
+    margin: 0 auto ;
+    width: 70%;
+}
+
+@media screen and (max-width: 500px)
+{
+    .masterContact{
         margin: 90px 0 95px;
     }
-    =======
-    .contact > fieldset{
-        margin: 0 auto ;
-        width: 70%;
-    }
-    @media screen and (max-width: 500px)
-    {
-        .masterContact{
-            margin: 90px 0 95px;
-        }
-        >>>>>>> 1638a624ffe42a0382b562dadfc1742af469c26f
-    }
+}
