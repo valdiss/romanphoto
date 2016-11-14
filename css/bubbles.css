@@ -114,13 +114,13 @@ mettre bottom: 1.5%;*/
 /* Case 3 */
 #A3-S1-D3-P1
 {
-    top: 0;
-    left: 0;
+    top: 3%;
+    left: 1%;
 }
 #A3-S1-D3-P2
 {
-    bottom: 1.5%;
-    right: 0;
+    bottom: 3%;
+    right: 1%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -148,7 +148,7 @@ mettre bottom: 1.5%;*/
 
 /* Case 3 */
 #A3-S2-D3-P1 {
-    top: 0;
+    top: 1.5%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -167,6 +167,7 @@ mettre bottom: 1.5%;*/
 }
 .children_speak {
     color: #ea657c;
+    border: 3px solid #ea657c;
 }
 .thinking {
   color: #4c4c4c;

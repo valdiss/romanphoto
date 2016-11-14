@@ -6,11 +6,6 @@ body {
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    /*
-    background-image: url("../images/500-blanc-kaolin.png");
-    background-position: center;
-    background-attachment: fixed;
-    */
 }
 .admin_name, #presentation {
   text-align: center;
@@ -115,6 +110,5 @@ button:hover {
     margin-right: auto;
   }
   button {
-    /*margin-bottom: 90px;*/
     margin-top: 20px;
 }
