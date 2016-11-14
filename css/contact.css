@@ -52,7 +52,7 @@ input:focus, textarea:focus {
   width: 80%;
 }
 .masterContact{
-  margin: 155px 0 95px;
+  margin: 135px 0 95px;
   position: relative;
 }
 .sendMessage {
@@ -75,4 +75,11 @@ fieldset:last-of-type {
 .iContact {
   /* Mise en forme du texte */
   font-size: 0.8em;
+}
+
+@media screen and (max-width: 500px)
+{
+  .masterContact{
+    margin: 90px 0 95px;
+  }
 }
