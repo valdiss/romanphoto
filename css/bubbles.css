@@ -6,8 +6,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
 }
 
 #A1-S1-D1-P2
@@ -24,45 +22,45 @@
 /* Case 2 */
 #A1-S1-D2-P1
 {
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
 }
 /* Case 3 */
 #A1-S1-D3-P1
 {
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%);
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
 }
 #A1-S1-D3-P2
 {
-  top: 46%;
-  left: 67%;
+    top: 46%;
+    left: 67%;
 }
 /* Case 4 */
 #A1-S2-D1-P1
 {
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
 }
 #A1-S2-D1-P2
 {
-  bottom: 15%;
-  left: 50%;
-  transform: translate(-50%);
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
 }
 /* Case 5 */
 #A1-S2-D2-P1
 {
-  top: 20%;
-  right: 3%;
+    top: 20%;
+    right: 3%;
 }
 #A1-S2-D2-P2
 {
-  bottom: 17%;
-  left: 0;
+    bottom: 17%;
+    left: 0;
 }
 
 /* CHAPITRE A2 ------------------------ */
@@ -163,8 +161,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -174,9 +170,6 @@
 {
     bottom: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
-    background-color: #FFFF00;
 }
 
 /* Case 2 */
@@ -184,8 +177,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -234,8 +225,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -244,8 +233,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -254,8 +241,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -264,8 +249,6 @@
 {
     top: 0;
     left: 0;
-    border: 2px solid #000000;
-    border-radius: 0px;
     background-color: #FF00FF;
 }
 
@@ -299,4 +282,14 @@
     left: 50%;
     transform: translate(-50%);
     font-style: italic;
+}
+
+
+@media screen and (max-width:500px)
+{
+    #A4-S6-D1-P1
+    {
+        top: 30%;
+        font-size: 1rem;
+    }   
 }

@@ -36,7 +36,7 @@ div article h2
     padding: 0;
     padding-left: 1%;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     border: 2px solid #FF8353;
     background-color: #F0F0F0;
 }
@@ -75,12 +75,19 @@ div article section div p
     padding: 2% 3% 2% 3%;
     line-height: 1;
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     white-space: nowrap;
     background-color: #FFFFFF;
     border: 3px solid #000000;
     border-radius: 100px;
     color: #000000;
+}
+
+div article section div p.legend
+{
+    background-color: #FFFF00;
+    border: 2px solid #000000;
+    border-radius: 0;
 }
 
 div article a
@@ -125,7 +132,7 @@ div article a div p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5em;
+    font-size: 5rem;
     margin: 0;
     color: #FF8353;
 }
@@ -145,6 +152,11 @@ div article a div.button:hover p
         padding-right: 15px;
     }
 
+    div article h2
+    {
+        font-size: 2rem;
+    }
+
     div article section
     {
         flex-direction: column;
@@ -158,7 +170,7 @@ div article a div.button:hover p
 
     div article section div p
     {
-        font-size: 0.55em;
+        font-size: 1.5rem;
     }
 
     div article a div.button
