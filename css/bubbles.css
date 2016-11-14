@@ -1,3 +1,6 @@
+/*Pour aligner correctement sur bottom
+mettre bottom: 1.5%;*/
+
 /* Bubble text ---------------------------------------------------------------- */
 /* CHAPITRE A1 ------------------------ */
 /* Section 1 ------ */
@@ -86,22 +89,26 @@
 /* Section 1 ------ */
 /* Case 1 */
 #A3-S1-D1-P1 {
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
 }
 #A3-S1-D1-P2 {
-    bottom: 0;
-    right: 0;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* Case 2 */
 #A3-S1-D2-P1 {
-    top: 0;
-    right: 0;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50%);
 }
 #A3-S1-D2-P2 {
-    bottom: 0;
-    left: 0;
+    bottom: 6%;
+    left: 60%;
+    transform: translate(-50%);
 }
 
 /* Case 3 */
@@ -112,39 +119,51 @@
 }
 #A3-S1-D3-P2
 {
-    bottom: 0;
-    left: 0;
+    bottom: 1.5%;
+    right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Section 2 ------ */
 /* Case 1 */
 #A3-S2-D1-P1 {
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: left;
 }
 
 /* Case 2 */
 #A3-S2-D2-P1 {
     top: 0;
-    right: 0;
+    left: 0;
     text-align: left;
 }
 #A3-S2-D2-P2 {
-    bottom: 0;
+    bottom: 1.5%;
     left: 0;
     text-align: right;
 }
 
 /* Case 3 */
 #A3-S2-D3-P1 {
-    bottom: 0;
-    left: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* Case 4 */
 #A3-S2-D4-P1 {
-    top: 0;
-    left: 0;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* Case 5 */
+#A3-S2-D5-P1 {
+  bottom: 1.5%;
+  left: 50%;
+  transform: translate(-50%);
 }
 .children_speak {
     color: #ea657c;
@@ -153,6 +172,7 @@
     background-color: black;
     margin-bottom: 0.3%;
 }
+
 
 /* Chapitre A4 ------------------------ */
 /* Section 1 ------ */
@@ -291,5 +311,5 @@
     {
         top: 30%;
         font-size: 1rem;
-    }   
+    }
 }
