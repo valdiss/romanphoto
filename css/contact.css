@@ -1,9 +1,9 @@
 body {
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   margin: 0;
   /*
   background-image: url("../images/500-blanc-kaolin.png");
@@ -48,10 +48,10 @@ input:focus, textarea:focus {
 }
 .contact {
   /* Centrage de la zone de contact */
-  margin: 0 auto ;
+  margin: 0 auto;
   width: 80%;
 }
-.masterContact{
+.masterContact {
   margin: 135px 0 95px;
   position: relative;
 }
@@ -76,10 +76,11 @@ fieldset:last-of-type {
   /* Mise en forme du texte */
   font-size: 0.8em;
 }
-
-@media screen and (max-width: 500px)
-{
-  .masterContact{
+.intro {
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .masterContact {
     margin: 90px 0 95px;
   }
 }
