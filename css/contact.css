@@ -43,8 +43,20 @@ input:focus, textarea:focus {
     position: relative;
 }
 .sendMessage {
-    /* Espacement augmenté */
-    margin-top: 5px;
+  /* Espacement augmenté */
+  margin-top: 5px;
+  font-size: 1em;
+  font-family: atami_disp, sans-serif;
+  color: white;
+  padding: 7px 30px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+  background-color: #969696;
+  border-bottom: 5px solid #636363;
+}
+.sendMessage:hover {
+  background-color: #636363;
+  border-bottom: 5px solid #4F4F4F;
 }
 .contactObligatoire {
     /* Mise en valeur de l'astérisque */
@@ -60,8 +72,9 @@ fieldset:last-of-type {
     margin-top: 8px;
 }
 .iContact {
-    /* Mise en forme du texte */
-    font-size: 0.8em;
+  /* Mise en forme du texte */
+  font-size: 1em;
+  margin: 0 5px 10px 0;
 }
 .intro {
     text-align: center;
