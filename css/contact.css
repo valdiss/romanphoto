@@ -79,6 +79,10 @@ fieldset:last-of-type {
 .intro {
   text-align: center;
 }
+.contact > fieldset{
+  margin: 0 auto ;
+  width: 70%;
+}
 @media screen and (max-width: 500px)
 {
   .masterContact{
