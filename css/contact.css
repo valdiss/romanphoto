@@ -1,59 +1,46 @@
-body {
-  min-height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin: 0;
-  /*
-  background-image: url("../images/500-blanc-kaolin.png");
-  background-position: center;
-  background-attachment: fixed;
-  */
-}
 input, textarea {
-  /* Reformatage bordure */
-  border: 1px solid #999;
-  box-sizing: border-box;
-  border-radius: 2px;
-  /* Largeur de la zone d'input responsive */
-  width: 40%;
-  /* Même police pour les zones d'input */
-  /* Couleur de fond */
-  background-color: #EDEDE5;
+    /* Reformatage bordure */
+    border: 1px solid #999;
+    box-sizing: border-box;
+    border-radius: 2px;
+    /* Largeur de la zone d'input responsive */
+    width: 40%;
+    /* Même police pour les zones d'input */
+    /* Couleur de fond */
+    background-color: #EDEDE5;
 }
 input:focus, textarea:focus {
-  /* Afin de réhausser les zones d'input */
-  border-color: black;
+    /* Afin de réhausser les zones d'input */
+    border-color: black;
 }
 .labContact {
-  /* Ajustement des labels : à droite, collé aux zones d'input */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-  /* Espacement augmenté */
-  margin-top: 5px;
+    /* Ajustement des labels : à droite, collé aux zones d'input */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    /* Espacement augmenté */
+    margin-top: 5px;
 }
 .divContact:last-of-type {
-  /* Espacement augmenté */
-  margin-bottom: 5px;
+    /* Espacement augmenté */
+    margin-bottom: 5px;
 }
 .divContactInfo {
-  /* Display flex afin de mettre le label en haut, et non en bas de la textarea */
-  display: flex;
+    /* Display flex afin de mettre le label en haut, et non en bas de la textarea */
+    display: flex;
 }
 .divContactInfo .labContact {
-  /* Espacement augmenté */
-  margin-right: 8px;
+    /* Espacement augmenté */
+    margin-right: 8px;
 }
 .contact {
-  /* Centrage de la zone de contact */
-  margin: 0 auto;
-  width: 80%;
+    /* Centrage de la zone de contact */
+    margin: 0 auto;
+    width: 80%;
 }
 .masterContact {
-  margin: 135px 0 95px;
-  position: relative;
+    margin: 135px 0 95px;
+    position: relative;
 }
 .sendMessage {
   /* Espacement augmenté */
@@ -72,17 +59,17 @@ input:focus, textarea:focus {
   border-bottom: 5px solid #4F4F4F;
 }
 .contactObligatoire {
-  /* Mise en valeur de l'astérisque */
-  font-weight: bolder;
-  color: red;
+    /* Mise en valeur de l'astérisque */
+    font-weight: bolder;
+    color: red;
 }
 fieldset {
-  /* Arrondi sur les bordures extérieurs */
-  border-radius: 10px;
+    /* Arrondi sur les bordures extérieurs */
+    border-radius: 10px;
 }
 fieldset:last-of-type {
-  /* Espacement augmenté */
-  margin-top: 8px;
+    /* Espacement augmenté */
+    margin-top: 8px;
 }
 .iContact {
   /* Mise en forme du texte */
@@ -90,10 +77,16 @@ fieldset:last-of-type {
   margin: 0 5px 10px 0;
 }
 .intro {
-  text-align: center;
+    text-align: center;
 }
-@media screen and (max-width: 500px) {
-  .masterContact {
-    margin: 90px 0 95px;
-  }
+.contact > fieldset{
+    margin: 0 auto ;
+    width: 70%;
+}
+
+@media screen and (max-width: 500px)
+{
+    .masterContact{
+        margin: 90px 0 95px;
+    }
 }
