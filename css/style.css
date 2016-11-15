@@ -9,6 +9,9 @@
 section {
     width: 100%;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 h1 {
     text-align: center;
@@ -45,11 +48,11 @@ h1 {
     margin-bottom: 1px;
     margin-top: 0.3em;
 }
-#boubou {
+/*#boubou {
       display: flex;
       justify-content: center;
-}
-.button_block {
+}*/
+/*.button_block {
     margin-top: 50px;
     margin-bottom: 150px;
     width: 300px;
@@ -64,6 +67,23 @@ h1 {
 .button_block:hover {
     background-color: #BF623E;
     border-bottom: 5px solid #7F4129;
+}*/
+#boubou {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 1.3em;
+    background-color: #FF8353;
+    border-bottom: 5px solid #BF623E;
+    justify-content: center;
+    display: flex;
+}
+#boubou:hover {
+    background-color: #BF623E;
+    border-bottom: 5px solid #7F4129;
 }
 .button_link {
     text-decoration: none;
@@ -71,9 +91,11 @@ h1 {
     color: white;
     text-shadow: 0px -2px #BF623E;
     width: 100%;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
     height: 50%;
 }
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 500px) {
     h1 {
