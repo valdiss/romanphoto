@@ -378,4 +378,15 @@ mettre bottom: 1.5%;*/
         top: 30%;
         font-size: 1rem;
     }
+
+    #A2-S1-D2-P2
+    {
+        bottom: 70%;
+        left: 5%;
+    }
+    #A2-S1-D3-P1
+    {
+        top: 25%;
+        left: 30%;
+    }
 }
