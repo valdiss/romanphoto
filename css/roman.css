@@ -61,10 +61,10 @@ div article section div p
     position: absolute;
     box-sizing: border-box;
     margin: 0;
-    padding: 2% 3% 2% 3%;
+    padding: 2% 4% 2% 4%;
     line-height: 1;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.5vw;
     white-space: nowrap;
     background-color: #FFFFFF;
     border: 3px solid #000000;
@@ -159,7 +159,7 @@ div article a div.button:hover p
 
     div article section div p
     {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     div article a div.button
