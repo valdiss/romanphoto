@@ -45,34 +45,34 @@ h1 {
     margin-bottom: 1px;
     margin-top: 0.3em;
 }
+#boubou {
+      display: flex;
+      justify-content: center;
+}
 .button_block {
-    display: flex;
-    justify-content: center;
     margin-top: 50px;
     margin-bottom: 150px;
-}
-button {
     width: 300px;
     height: 50px;
     position: relative;
-    display: flex;
-    justify-content: center;
     border-radius: 10px;
     font-size: 1.3em;
     background-color: #FF8353;
     border-bottom: 5px solid #BF623E;
+    display: flex;
 }
-button:hover {
+.button_block:hover {
     background-color: #BF623E;
     border-bottom: 5px solid #7F4129;
 }
 .button_link {
     text-decoration: none;
-    padding: 10px;
+    margin:auto;
     color: white;
     text-shadow: 0px -2px #BF623E;
-    display: block;
     width: 100%;
+    text-align: center;
+    justify-content: center;
 }
 /*MEDIA QUERIES*/
 @media screen and (max-width: 500px) {
