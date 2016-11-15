@@ -138,6 +138,7 @@ mettre bottom: 1.5%;*/
 {
     top: 1.5%;
     left: 1%;
+    white-space: nowrap;
 }
 #A3-S1-D3-P2
 {
@@ -372,6 +373,9 @@ mettre bottom: 1.5%;*/
 
 @media screen and (max-width:500px)
 {
+    #A3-S1-D3-P1 {
+      white-space: normal;
+    }
     #A4-S6-D1-P1
     {
         top: 30%;
