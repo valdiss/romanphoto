@@ -67,23 +67,46 @@ mettre bottom: 1.5%;*/
 }
 
 /* CHAPITRE A2 ------------------------ */
+#A2-S1-D1-P1
+{
+    top: 1%;
+    left: 10%;
+}
+
+#A2-S1-D1-P2
+{
+    top: 4%;
+    right: 10%;
+}
+
 #A2-S1-D2-P1
 {
-    top: 0;
-    left: 0;
+    top: 8%;
+    left: 50%;
 }
 
 #A2-S1-D2-P2
 {
-    top: 0;
-    right: 0;
+    bottom: 10%;
+    left: 20%;
 }
 
-#A2-S1-D2-P3
+#A2-S1-D3-P1
 {
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+    top: 25%;
+    left: 20%;
+}
+
+#A2-S2-D1-P1
+{
+    top: 15%;
+    left: 10%;
+}
+
+#A2-S2-D2-P1
+{
+    top: 15%;
+    right: 5%;
 }
 /* CHAPITRE A3 ------------------------ */
 /* Section 1 ------ */
