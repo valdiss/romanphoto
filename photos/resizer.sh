@@ -53,7 +53,7 @@ convert chapitre_4/originals/4_04.jpg -resize 1392x1045 chapitre_4/4_04.jpg
 #1500x1125
 convert chapitre_4/originals/4_05.jpg -resize 1392x1045 chapitre_4/4_05.jpg
 #1500x1125
-convert chapitre_4/originals/4_05_2.jpg -resize 1392x1045 chapitre_4/4_05.jpg
+convert chapitre_4/originals/4_05_2.jpg -resize 1392x1045 chapitre_4/4_05_2.jpg
 #3264x2448
 convert chapitre_4/originals/4_06.jpg -resize 1392x1045 chapitre_4/4_06.jpg
 #1931x1450
