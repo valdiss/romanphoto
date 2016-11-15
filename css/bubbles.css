@@ -224,7 +224,7 @@
 /* Div 1 */
 #A4-S2-D1-P1
 {
-    top: 0;
+    top: 10%;
     right: 0;
 }
 #A4-S2-D1-P2
@@ -236,25 +236,25 @@
 /* Div 2 */
 #A4-S2-D2-P1
 {
-    top: 0;
+    top: 25%;
     left: 0;
 }
 #A4-S2-D2-P2
 {
-    top: 50%;
+    bottom: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 #A4-S2-D2-P3
 {
-    top: 0;
+    top: 25%;
     right: 0;
 }
 
 /* Div 3 */
 #A4-S2-D3-P1
 {
-    bottom: 0;
+    bottom: 30%;
     left: 0;
 }
 #A4-S2-D3-P2
@@ -267,26 +267,26 @@
 /* Div 1 */
 #A4-S3-D1-P1
 {
-    top: 0;
+    top: 20%;
     left: 0;
 }
 #A4-S3-D1-P2
 {
-    bottom: 0;
+    bottom: 20%;
     right: 0;
 }
 
 /* Div 2 */
 #A4-S3-D2-P1
 {
-    top: 0;
+    top: 20%;
     left: 0;
 }
 
 /* Div 3 */
 #A4-S3-D3-P1
 {
-    bottom: 0;
+    bottom: 20%;
     right: 0;
 }
 
@@ -294,7 +294,7 @@
 /* Div 1 */
 #A4-S4-D1-P1
 {
-    top: 0;
+    top: 10%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -302,25 +302,22 @@
 /* Div 2 */
 #A4-S4-D2-P1
 {
-    top: 50%;
+    top: 0;
     right: 0;
-    transform: translate(0, -50%);
 }
 
 /* Div 3 */
 #A4-S4-D3-P1
 {
-    top: 50%;
+    top: 0;
     left: 0;
-    transform: translate(0, -50%);
 }
 
 /* Div 4 */
 #A4-S4-D4-P1
 {
-    top: 50%;
+    top: 0;
     right: 0;
-    transform: translate(0, -50%);
 }
 
 /* Section 5 ------ */
@@ -374,6 +371,14 @@
         white-space: normal;
     }
 
+#A4-S4-D1-P1
+{
+    top: 20%;
+}
+#A4-S4-D4-P1
+{
+    top: 10%;
+}
     #A4-S6-D1-P1
     {
         top: 30%;
