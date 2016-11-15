@@ -46,8 +46,8 @@ h1 {
     margin-top: 0.3em;
 }
 #boubou {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .button_block {
     margin-top: 50px;

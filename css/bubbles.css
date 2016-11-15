@@ -1,6 +1,3 @@
-/*Pour aligner correctement sur bottom
-mettre bottom: 1.5%;*/
-
 /* Bubble text ---------------------------------------------------------------- */
 /* CHAPITRE A1 ------------------------ */
 /* Section 1 ------ */
@@ -135,7 +132,7 @@ mettre bottom: 1.5%;*/
     transform: translate(-50%);
 }
 #A3-S1-D2-P3 {
-  top: 0;
+    top: 0;
 }
 /* Case 3 */
 #A3-S1-D3-P1
@@ -189,9 +186,9 @@ mettre bottom: 1.5%;*/
 }
 /* Case 5 */
 #A3-S2-D5-P1 {
-  bottom: 1.5%;
-  left: 50%;
-  transform: translate(-50%);
+    bottom: 1.5%;
+    left: 50%;
+    transform: translate(-50%);
 }
 .star {
     background-color: black;
@@ -350,7 +347,7 @@ mettre bottom: 1.5%;*/
 @media screen and (max-width:500px)
 {
     #A3-S1-D3-P1 {
-      white-space: normal;
+        white-space: normal;
     }
     #A4-S6-D1-P1
     {
