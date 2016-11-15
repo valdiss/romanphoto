@@ -124,7 +124,7 @@ mettre bottom: 1.5%;*/
 
 /* Case 2 */
 #A3-S1-D2-P1 {
-    top: 15%;
+    top: 1.5%;
     left: 40%;
     transform: translate(-50%);
 }
@@ -133,11 +133,10 @@ mettre bottom: 1.5%;*/
     left: 60%;
     transform: translate(-50%);
 }
-
 /* Case 3 */
 #A3-S1-D3-P1
 {
-    top: 3%;
+    top: 1.5%;
     left: 1%;
 }
 #A3-S1-D3-P2
@@ -147,6 +146,7 @@ mettre bottom: 1.5%;*/
     padding-left: 5%;
     padding-right: 5%;
 }
+
 
 /* Section 2 ------ */
 /* Case 1 */
