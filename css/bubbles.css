@@ -71,43 +71,43 @@ mettre bottom: 1.5%;*/
 #A2-S1-D1-P1
 {
     top: 1%;
-    left: 10%;
+    left: 5%;
 }
 
 #A2-S1-D1-P2
 {
-    bottom: 20%;
+    bottom: 10%;
     right: 7%;
 }
 /*case 2*/
 #A2-S1-D2-P1
 {
-    top: 8%;
+    top: 7%;
     left: 50%;
 }
 
 #A2-S1-D2-P2
 {
-    bottom: 10%;
-    left: 20%;
+    bottom: 7%;
+    left: 15%;
 }
 /*case 3*/
 #A2-S1-D3-P1
 {
-    top: 25%;
-    left: 20%;
+    top: 15%;
+    left: 7%;
 }
 /*case 4*/
 #A2-S2-D1-P1
 {
-    top: 15%;
-    left: 10%;
+    top: 5%;
+    left: 3%;
 }
 /*case 5*/
 #A2-S2-D2-P1
 {
-    top: 15%;
-    right: 5%;
+    top: 5%;
+    right: 2%;
 }
 /* CHAPITRE A3 ------------------------ */
 /* Section 1 ------ */
@@ -376,5 +376,6 @@ mettre bottom: 1.5%;*/
     #A4-S6-D1-P1
     {
         top: 30%;
+        font-size: 1rem;
     }
 }
