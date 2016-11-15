@@ -67,6 +67,7 @@ mettre bottom: 1.5%;*/
 }
 
 /* CHAPITRE A2 ------------------------ */
+/*case 1*/
 #A2-S1-D1-P1
 {
     top: 1%;
@@ -75,10 +76,10 @@ mettre bottom: 1.5%;*/
 
 #A2-S1-D1-P2
 {
-    top: 4%;
-    right: 10%;
+    bottom: 20%;
+    right: 7%;
 }
-
+/*case 2*/
 #A2-S1-D2-P1
 {
     top: 8%;
@@ -90,19 +91,19 @@ mettre bottom: 1.5%;*/
     bottom: 10%;
     left: 20%;
 }
-
+/*case 3*/
 #A2-S1-D3-P1
 {
     top: 25%;
     left: 20%;
 }
-
+/*case 4*/
 #A2-S2-D1-P1
 {
     top: 15%;
     left: 10%;
 }
-
+/*case 5*/
 #A2-S2-D2-P1
 {
     top: 15%;
